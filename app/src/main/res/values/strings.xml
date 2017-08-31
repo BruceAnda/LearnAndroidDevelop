@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">LearnAndroidDevelop</string>
+    <string name="title_base">基础</string>
+    <string name="title_third">三方</string>
+    <string name="title_proj">项目</string>
+    <string name="title_other">其他</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_download">下载</string>
+    <string name="helloworld">HelloWorld</string>
+    <!-- 基础导航 -->
+    <string-array name="Basic">
+        <item>核心基础</item>
+        <item>高级开发</item>
+    </string-array>
+
+    <!-- 核心基础 -->
+    <string-array name="CoreBasic">
+        <item>快速入门</item>
+    </string-array>
+    <!-- 快速入门 -->
+    <string-array name="QuickStart">
+        <item>HelloWorld</item>
+        <item>SimpleDownloadUI</item>
+    </string-array>
+
+    <!-- 三方导航 -->
+    <string-array name="Third">
+        <item>Fresco</item>
+    </string-array>
+    <!-- 项目导航 -->
+    <string-array name="Proj">
+        <item>手机影音</item>
+    </string-array>
+    <!-- 其他导航 -->
+    <string-array name="Other">
+        <item>关于</item>
+        <item>我</item>
+    </string-array>
+</resources>
