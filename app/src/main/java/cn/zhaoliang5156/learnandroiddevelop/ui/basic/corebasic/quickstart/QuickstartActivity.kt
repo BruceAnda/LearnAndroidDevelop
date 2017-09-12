@@ -1,7 +1,6 @@
 package cn.zhaoliang5156.learnandroiddevelop.ui.basic.corebasic.quickstart
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
 import android.view.View
@@ -13,7 +12,7 @@ import cn.zhaoliang5156.learnandroiddevelop.ui.main.base.BaseActivity
 import kotlinx.android.synthetic.main.activity_quickstart.*
 
 /**
- * 快速入门
+ * 需求：快速入门
  */
 class QuickstartActivity : BaseActivity() {
 

@@ -7,10 +7,13 @@ import cn.zhaoliang5156.learnandroiddevelop.ui.main.base.BaseActivity
 import kotlinx.android.synthetic.main.activity_simple_download_ui.*
 
 /**
- * SimpleDownloadUI
+ * 需求：简单的模拟下载界面
  */
 class SimpleDownloadUIActivity : BaseActivity() {
 
+    /**
+     * 当界面创建的时候调用
+     */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_simple_download_ui)
