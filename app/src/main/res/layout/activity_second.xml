@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.zhaoliang5156.learnandroiddevelop.ui.basic.corebasic.component.activity.useactivity.SecondActivity">
+
+    <EditText
+        android:id="@+id/et_message_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="message" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="back"
+        android:text="一般的返回" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="back2"
+        android:text="带结果的返回" />
+</LinearLayout>

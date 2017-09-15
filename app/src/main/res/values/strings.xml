@@ -18,11 +18,27 @@
     <!-- 核心基础 -->
     <string-array name="CoreBasic">
         <item>快速入门</item>
+        <item>四大组件</item>
+        <item>UI</item>
     </string-array>
     <!-- 快速入门 -->
     <string-array name="QuickStart">
         <item>HelloWorld</item>
         <item>SimpleDownloadUI</item>
+    </string-array>
+    <!-- 四大组件 -->
+    <string-array name="Component">
+        <item>Activity</item>
+        <item>Service</item>
+        <item>ContentProvider</item>
+        <item>BroadcastReceiver</item>
+    </string-array>
+    <!-- Activity -->
+    <string-array name="Activity">
+        <item>UseActivity</item>
+        <item>ActivityLifeCycle</item>
+        <item>ActivityLunchMode</item>
+        <item>PhoneAdnSms</item>
     </string-array>
 
     <!-- 三方导航 -->

@@ -6,6 +6,8 @@ import android.support.v7.widget.LinearLayoutManager
 import android.view.View
 import cn.zhaoliang5156.learnandroiddevelop.R
 import cn.zhaoliang5156.learnandroiddevelop.adapter.ListAdapter
+import cn.zhaoliang5156.learnandroiddevelop.ui.basic.corebasic.component.ComponentActivity
+import cn.zhaoliang5156.learnandroiddevelop.ui.basic.corebasic.component.activity.Activity
 import cn.zhaoliang5156.learnandroiddevelop.ui.basic.corebasic.quickstart.QuickstartActivity
 import cn.zhaoliang5156.learnandroiddevelop.ui.main.base.BaseActivity
 import kotlinx.android.synthetic.main.activity_core_basic.*
@@ -16,12 +18,13 @@ import kotlinx.android.synthetic.main.activity_core_basic.*
 class CoreBasicActivity : BaseActivity() {
 
     private val mTarget = arrayOf(
-            QuickstartActivity::class.java
+            QuickstartActivity::class.java,
+            ComponentActivity::class.java
     )
 
     private val mOnListItemClickListener = object : ListAdapter.OnListItemClickListener {
         override fun onListItemClick(view: View, position: Int) {
-            startActivity(Intent(this@CoreBasicActivity, QuickstartActivity::class.java))
+            startActivity(Intent(this@CoreBasicActivity, mTarget[position]))
         }
     }
 
