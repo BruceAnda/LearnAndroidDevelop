@@ -38,7 +38,7 @@
         <item>UseActivity</item>
         <item>ActivityLifeCycle</item>
         <item>ActivityLunchMode</item>
-        <item>PhoneAdnSms</item>
+        <item>PhoneAndSms</item>
     </string-array>
 
     <!-- 三方导航 -->

@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cn.zhaoliang5156.learnandroiddevelop">
 
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,7 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.basic.BasicActivity" />
         <activity android:name=".ui.basic.corebasic.CoreBasicActivity" />
         <activity android:name=".ui.basic.advance.AdvanceActivity" />
         <activity android:name=".ui.basic.corebasic.quickstart.QuickstartActivity" />
@@ -29,12 +31,21 @@
         <activity android:name=".ui.basic.corebasic.component.activity.Activity" />
         <activity android:name=".ui.basic.corebasic.component.activity.useactivity.UseActivity" />
         <activity android:name=".ui.basic.corebasic.component.activity.activitylifecycle.ActivityLifeCycleActivity" />
-        <activity android:name=".ui.basic.corebasic.component.activity.activitylunchmode.ActivityLunchModeActivity" />
+        <activity
+            android:name=".ui.basic.corebasic.component.activity.activitylunchmode.ActivityLunchModeActivity"
+            android:launchMode="singleTask" />
         <activity android:name=".ui.basic.corebasic.component.activity.phoneandsms.PhoneAndSmsActivity" />
         <activity android:name=".ui.basic.corebasic.component.service.ServiceActivity" />
         <activity android:name=".ui.basic.corebasic.component.broadcastreceiver.BroadcastReceiverActivity" />
         <activity android:name=".ui.basic.corebasic.component.contentprovider.ContentProviderActivity" />
-        <activity android:name=".ui.basic.corebasic.component.activity.useactivity.SecondActivity"></activity>
+        <activity android:name=".ui.basic.corebasic.component.activity.useactivity.SecondActivity" />
+        <activity
+            android:name=".ui.basic.corebasic.component.activity.activitylifecycle.SecondActivity"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".ui.basic.corebasic.component.activity.activitylunchmode.SecondActivity"
+            android:launchMode="singleInstance" />
+        <activity android:name=".ui.basic.corebasic.component.activity.activitylunchmode.ThirdActivity"></activity>
     </application>
 
 </manifest>

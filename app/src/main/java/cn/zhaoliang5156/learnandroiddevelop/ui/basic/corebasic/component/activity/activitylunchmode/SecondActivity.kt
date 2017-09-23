@@ -7,26 +7,26 @@ import android.view.View
 import cn.zhaoliang5156.learnandroiddevelop.R
 
 /**
- * Activity的启动模式
+ * 第二个界面
  */
-class ActivityLunchModeActivity : AppCompatActivity() {
+class SecondActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_lunch_mode)
+        setContentView(R.layout.activity_second3)
     }
 
     /**
-     * 跳转到第二个界面
+     * 跳转到界面三
      */
-    fun startSecond(view: View) {
-        startActivity(Intent(this@ActivityLunchModeActivity, SecondActivity::class.java))
+    fun startThird(view: View) {
+        startActivity(Intent(this@SecondActivity, ThirdActivity::class.java))
     }
 
     /**
-     * 跳转到第一个界面
+     * 跳转到界面一
      */
     fun startFirst(view: View) {
-        startActivity(Intent(this@ActivityLunchModeActivity, ActivityLunchModeActivity::class.java))
+        startActivity(Intent(this@SecondActivity, ActivityLunchModeActivity::class.java))
     }
 }
