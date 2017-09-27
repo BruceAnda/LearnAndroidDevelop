@@ -9,6 +9,7 @@ import cn.zhaoliang5156.learnandroiddevelop.adapter.ListAdapter
 import cn.zhaoliang5156.learnandroiddevelop.ui.basic.corebasic.component.ComponentActivity
 import cn.zhaoliang5156.learnandroiddevelop.ui.basic.corebasic.component.activity.Activity
 import cn.zhaoliang5156.learnandroiddevelop.ui.basic.corebasic.quickstart.QuickstartActivity
+import cn.zhaoliang5156.learnandroiddevelop.ui.basic.corebasic.ui.UIActivity
 import cn.zhaoliang5156.learnandroiddevelop.ui.main.base.BaseActivity
 import kotlinx.android.synthetic.main.activity_core_basic.*
 
@@ -19,7 +20,8 @@ class CoreBasicActivity : BaseActivity() {
 
     private val mTarget = arrayOf(
             QuickstartActivity::class.java,
-            ComponentActivity::class.java
+            ComponentActivity::class.java,
+            UIActivity::class.java
     )
 
     private val mOnListItemClickListener = object : ListAdapter.OnListItemClickListener {

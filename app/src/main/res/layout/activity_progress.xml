@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.zhaoliang5156.learnandroiddevelop.ui.basic.corebasic.ui.progress.ProgressActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_progress_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正在加载中。。。" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pb_progress_loading"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="30" />
+
+    <SeekBar
+        android:id="@+id/sb_progress_lading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.滑动下面的滑杆后，上面的进度条会同步\n2.滑动到最大时，最上面的进度会消失" />
+</LinearLayout>

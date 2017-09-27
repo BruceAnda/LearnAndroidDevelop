@@ -40,6 +40,18 @@
         <item>ActivityLunchMode</item>
         <item>PhoneAndSms</item>
     </string-array>
+    <!-- UI -->
+    <string-array name="UIMain">
+        <item>SimpleComponent</item>
+        <item>Menu</item>
+        <item>Progress</item>
+        <item>Dialog</item>
+        <item>Layout</item>
+        <item>ListView</item>
+        <item>StyleAndTheme</item>
+        <item>AppList</item>
+        <item>GridView</item>
+    </string-array>
 
     <!-- 三方导航 -->
     <string-array name="Third">

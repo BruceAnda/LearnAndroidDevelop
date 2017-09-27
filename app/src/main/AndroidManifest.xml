@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cn.zhaoliang5156.learnandroiddevelop">
 
-    <uses-permission android:name="android.permission.CALL_PHONE"/>
-    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
 
     <application
         android:allowBackup="true"
@@ -45,7 +45,17 @@
         <activity
             android:name=".ui.basic.corebasic.component.activity.activitylunchmode.SecondActivity"
             android:launchMode="singleInstance" />
-        <activity android:name=".ui.basic.corebasic.component.activity.activitylunchmode.ThirdActivity"></activity>
+        <activity android:name=".ui.basic.corebasic.component.activity.activitylunchmode.ThirdActivity" />
+        <activity android:name=".ui.basic.corebasic.ui.UIActivity" />
+        <activity android:name=".ui.basic.corebasic.ui.simplecomponent.SimpleComponenetActivity" />
+        <activity android:name=".ui.basic.corebasic.ui.menu.MenuActivity" />
+        <activity android:name=".ui.basic.corebasic.ui.progress.ProgressActivity" />
+        <activity android:name=".ui.basic.corebasic.ui.dialog.DialogActivity" />
+        <activity android:name=".ui.basic.corebasic.ui.layout.LayoutActivity" />
+        <activity android:name=".ui.basic.corebasic.ui.listview.ListViewActivity" />
+        <activity android:name=".ui.basic.corebasic.ui.styleandtheme.StyleAndThemeActivity" />
+        <activity android:name=".ui.basic.corebasic.ui.applist.AppListActivity" />
+        <activity android:name=".ui.basic.corebasic.ui.gridview.GridViewActivity"></activity>
     </application>
 
 </manifest>

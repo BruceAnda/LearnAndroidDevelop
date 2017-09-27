@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.zhaoliang5156.learnandroiddevelop.ui.basic.corebasic.ui.menu.MenuActivity">
+
+    <Button
+        android:id="@+id/btn_content_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示ContentMenu" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.点击Menu显示选项菜单\n2.长按按钮显示上下文菜单"
+        android:textSize="25sp" />
+</LinearLayout>

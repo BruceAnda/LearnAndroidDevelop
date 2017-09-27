@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.zhaoliang5156.learnandroiddevelop.ui.basic.corebasic.ui.dialog.DialogActivity">
+
+    <!-- AlertDialog -->
+    <Button
+        android:id="@+id/btn_test_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showAD"
+        android:text="显示一般的对话框" />
+
+    <Button
+        android:id="@+id/btn_test_ld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showLD"
+        android:text="显示列表的对话框" />
+
+    <Button
+        android:id="@+id/btn_test_cd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showCD"
+        android:text="显示自定义的对话框" />
+    <!-- ProgressDialog -->
+    <Button
+        android:id="@+id/btn_test_pd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="showPD"
+        android:text="显示圆形进度条对话框" />
+
+    <Button
+        android:id="@+id/btn_test_pd2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showPD2"
+        android:text="显示水平的进度条对话框" />
+
+    <!-- DatePickerDialog和TimePickerDialog -->
+    <Button
+        android:id="@+id/btn_test_showdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="showDD"
+        android:text="显示日期对话框" />
+
+    <Button
+        android:id="@+id/btn_test_showtd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showTD"
+        android:text="显示时间对话框" />
+</LinearLayout>
