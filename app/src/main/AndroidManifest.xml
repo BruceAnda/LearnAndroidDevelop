@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="cn.zhaoliang5156.learnandroiddevelop">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
@@ -53,9 +54,21 @@
         <activity android:name=".ui.basic.corebasic.ui.dialog.DialogActivity" />
         <activity android:name=".ui.basic.corebasic.ui.layout.LayoutActivity" />
         <activity android:name=".ui.basic.corebasic.ui.listview.ListViewActivity" />
-        <activity android:name=".ui.basic.corebasic.ui.styleandtheme.StyleAndThemeActivity" />
+        <activity
+            android:name=".ui.basic.corebasic.ui.styleandtheme.StyleAndThemeActivity"
+            android:theme="@style/AppTheme.MyTheme"/>
         <activity android:name=".ui.basic.corebasic.ui.applist.AppListActivity" />
-        <activity android:name=".ui.basic.corebasic.ui.gridview.GridViewActivity"></activity>
+        <activity android:name=".ui.basic.corebasic.ui.gridview.GridViewActivity" />
+        <activity android:name=".ui.basic.corebasic.storage.StorageOptionActivity" />
+        <activity android:name=".ui.basic.corebasic.coremachine.CoreMachineActivity" />
+        <activity android:name=".ui.basic.corebasic.media.MediaActivity" />
+        <activity android:name=".ui.basic.corebasic.fragment.FragmentActivity" />
+        <activity android:name=".ui.basic.corebasic.ui.layout.layout.LinearLayoutActivity" />
+        <activity android:name=".ui.basic.corebasic.ui.layout.layout.RelativeLayoutActivity" />
+        <activity android:name=".ui.basic.corebasic.ui.layout.layout.FrameLayoutActivity" />
+        <activity android:name=".ui.basic.corebasic.ui.listview.listview.ArrayAdapterActivity" />
+        <activity android:name=".ui.basic.corebasic.ui.listview.listview.SimpleAdapterActivity" />
+        <activity android:name=".ui.basic.corebasic.ui.listview.listview.BaseAdapterActivity"></activity>
     </application>
 
 </manifest>

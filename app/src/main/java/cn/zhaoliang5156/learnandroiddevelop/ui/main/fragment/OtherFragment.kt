@@ -9,6 +9,7 @@ import android.view.ViewGroup
 
 import cn.zhaoliang5156.learnandroiddevelop.R
 import cn.zhaoliang5156.learnandroiddevelop.adapter.ListAdapter
+import cn.zhaoliang5156.learnandroiddevelop.common.extensions.inflate
 import cn.zhaoliang5156.learnandroiddevelop.ui.main.base.BaseFragment
 import kotlinx.android.synthetic.main.fragment_other.*
 
@@ -23,7 +24,7 @@ class OtherFragment : BaseFragment() {
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater!!.inflate(R.layout.fragment_other, container, false)
+        return container?.inflate(R.layout.fragment_other)
     }
 
     // 列表项点击事件

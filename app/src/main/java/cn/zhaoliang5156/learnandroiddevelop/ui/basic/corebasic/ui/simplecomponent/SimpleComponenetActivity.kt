@@ -48,7 +48,7 @@ class SimpleComponenetActivity : AppCompatActivity() {
         }
 
         // CheckBox
-        cb_simple_foot.setOnCheckedChangeListener { compoundButton, b ->
+        cb_simple_foot.setOnCheckedChangeListener { _, b ->
             if (b) {
                 Toast.makeText(this@SimpleComponenetActivity, "选中了足球", Toast.LENGTH_SHORT).show()
             } else {
@@ -57,7 +57,7 @@ class SimpleComponenetActivity : AppCompatActivity() {
         }
 
         // RadioGroup
-        rg_simple_sex.setOnCheckedChangeListener { radioGroup, i ->
+        rg_simple_sex.setOnCheckedChangeListener { _, i ->
             Toast.makeText(this@SimpleComponenetActivity, "选中的性别是：" + findViewById<RadioButton>(i).text.toString(), Toast.LENGTH_SHORT).show()
         }
     }

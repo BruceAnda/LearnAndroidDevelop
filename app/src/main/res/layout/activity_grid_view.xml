@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gv_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:numColumns="3"
+    android:verticalSpacing="5dp"
     tools:context="cn.zhaoliang5156.learnandroiddevelop.ui.basic.corebasic.ui.gridview.GridViewActivity">
 
-</android.support.constraint.ConstraintLayout>
+</GridView>

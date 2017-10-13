@@ -18,6 +18,9 @@ import cn.zhaoliang5156.learnandroiddevelop.ui.basic.corebasic.ui.styleandtheme.
 import cn.zhaoliang5156.learnandroiddevelop.ui.main.base.BaseActivity
 import kotlinx.android.synthetic.main.activity_ui.*
 
+/**
+ * 界面
+ */
 class UIActivity : BaseActivity() {
 
     // 要跳转到的目的地
@@ -42,6 +45,10 @@ class UIActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // update title property
+        title = "UI"
+
         // 设置内容布局
         setContentView(R.layout.activity_ui)
         // 设置布局管理器

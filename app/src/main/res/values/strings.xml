@@ -5,10 +5,6 @@
     <string name="title_proj">项目</string>
     <string name="title_other">其他</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="btn_download">下载</string>
-    <string name="helloworld">HelloWorld</string>
     <!-- 基础导航 -->
     <string-array name="Basic">
         <item>核心基础</item>
@@ -20,12 +16,18 @@
         <item>快速入门</item>
         <item>四大组件</item>
         <item>UI</item>
+        <item>数据存储</item>
+        <item>核心机制</item>
+        <item>多媒体</item>
+        <item>碎片</item>
     </string-array>
     <!-- 快速入门 -->
     <string-array name="QuickStart">
         <item>HelloWorld</item>
         <item>SimpleDownloadUI</item>
     </string-array>
+    <string name="btn_download">下载</string>
+    <string name="helloworld">HelloWorld</string>
     <!-- 四大组件 -->
     <string-array name="Component">
         <item>Activity</item>
@@ -40,6 +42,18 @@
         <item>ActivityLunchMode</item>
         <item>PhoneAndSms</item>
     </string-array>
+    <!-- Service -->
+    <string-array name="Service">
+
+    </string-array>
+    <!-- BroadcastReceiver -->
+    <string-array name="BroadcastReceiver">
+
+    </string-array>
+    <!-- ContentProvider -->
+    <string-array name="ContentProvider">
+
+    </string-array>
     <!-- UI -->
     <string-array name="UIMain">
         <item>SimpleComponent</item>
@@ -51,6 +65,34 @@
         <item>StyleAndTheme</item>
         <item>AppList</item>
         <item>GridView</item>
+    </string-array>
+    <!-- layout -->
+    <string-array name="Layout">
+        <item>LinearLayout</item>
+        <item>RelativeLayout</item>
+        <item>FrameLayout</item>
+    </string-array>
+    <!-- ListView -->
+    <string-array name="ListView">
+        <item>ArrayAdapter</item>
+        <item>SimpleAdapter</item>
+        <item>BaseAdapter</item>
+    </string-array>
+    <!-- 数据存储 -->
+    <string-array name="StorageOption">
+
+    </string-array>
+    <!-- 核心机制 -->
+    <string-array name="CoreMachine">
+
+    </string-array>
+    <!-- 多媒体 -->
+    <string-array name="Media">
+
+    </string-array>
+    <!-- 碎片 -->
+    <string-array name="Fragment">
+
     </string-array>
 
     <!-- 三方导航 -->

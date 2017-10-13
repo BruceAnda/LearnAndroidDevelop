@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.zhaoliang5156.learnandroiddevelop.ui.basic.corebasic.ui.layout.layout.RelativeLayoutActivity">
+
+    <EditText
+        android:id="@+id/et_relative_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="message" />
+
+    <Button
+        android:id="@+id/btn_relative_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/et_relative_message"
+        android:text="ok" />
+
+    <Button
+        android:id="@+id/btn_relative_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/btn_relative_ok"
+        android:layout_toLeftOf="@id/btn_relative_ok"
+        android:text="cancel" />
+</RelativeLayout>

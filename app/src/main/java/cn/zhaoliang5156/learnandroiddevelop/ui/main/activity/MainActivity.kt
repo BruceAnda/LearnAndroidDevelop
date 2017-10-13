@@ -68,6 +68,7 @@ class MainActivity : BaseActivity() {
         }
 
         override fun onPageSelected(position: Int) {
+            // 当页面选中的时候改变导航
             changeNavigation(position)
         }
     }
@@ -79,6 +80,9 @@ class MainActivity : BaseActivity() {
         navigation.selectedItemId = mNavigationIds[position]
     }
 
+    /**
+     * 生命周期方法，当Activity创建的时候调用
+     */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         // 设置内容布局
@@ -87,12 +91,13 @@ class MainActivity : BaseActivity() {
         // 设置标题
         title = getString(R.string.title_base)
 
-        // 数据集
+        // 页面数据集
         val datas = ArrayList<BaseFragment>()
-        datas.add(BasicFragment())
-        datas.add(ThirdFragment())
-        datas.add(ProjFragment())
-        datas.add(OtherFragment())
+        datas.add(BasicFragment())  // 添加基础页面
+        datas.add(ThirdFragment())  // 添加三方页面
+        datas.add(ProjFragment())   // 添加项目页面
+        datas.add(OtherFragment())  // 添加其他页面
+        // 设置适配器属性
         pagers.adapter = MainPagerAdapter(supportFragmentManager, datas)
 
         // 设置页面改变事件监听

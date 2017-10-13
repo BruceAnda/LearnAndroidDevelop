@@ -8,7 +8,11 @@ import cn.zhaoliang5156.learnandroiddevelop.R
 import cn.zhaoliang5156.learnandroiddevelop.adapter.ListAdapter
 import cn.zhaoliang5156.learnandroiddevelop.ui.basic.corebasic.component.ComponentActivity
 import cn.zhaoliang5156.learnandroiddevelop.ui.basic.corebasic.component.activity.Activity
+import cn.zhaoliang5156.learnandroiddevelop.ui.basic.corebasic.coremachine.CoreMachineActivity
+import cn.zhaoliang5156.learnandroiddevelop.ui.basic.corebasic.fragment.FragmentActivity
+import cn.zhaoliang5156.learnandroiddevelop.ui.basic.corebasic.media.MediaActivity
 import cn.zhaoliang5156.learnandroiddevelop.ui.basic.corebasic.quickstart.QuickstartActivity
+import cn.zhaoliang5156.learnandroiddevelop.ui.basic.corebasic.storage.StorageOptionActivity
 import cn.zhaoliang5156.learnandroiddevelop.ui.basic.corebasic.ui.UIActivity
 import cn.zhaoliang5156.learnandroiddevelop.ui.main.base.BaseActivity
 import kotlinx.android.synthetic.main.activity_core_basic.*
@@ -18,12 +22,20 @@ import kotlinx.android.synthetic.main.activity_core_basic.*
  */
 class CoreBasicActivity : BaseActivity() {
 
+    // 核心基础目标页面
     private val mTarget = arrayOf(
             QuickstartActivity::class.java,
             ComponentActivity::class.java,
-            UIActivity::class.java
+            UIActivity::class.java,
+            StorageOptionActivity::class.java,
+            CoreMachineActivity::class.java,
+            MediaActivity::class.java,
+            FragmentActivity::class.java
     )
 
+    /**
+     * 核心基础点击事件
+     */
     private val mOnListItemClickListener = object : ListAdapter.OnListItemClickListener {
         override fun onListItemClick(view: View, position: Int) {
             startActivity(Intent(this@CoreBasicActivity, mTarget[position]))

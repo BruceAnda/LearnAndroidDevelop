@@ -5,7 +5,8 @@ import android.view.View
 import android.view.ViewGroup
 
 /**
- * Created by zhaoliang on 2017/9/27.
+ * 在ViewGroup上扩展一个填充布局的方法
+ * 这是kotlin特有的语法
  */
 fun ViewGroup.inflate(layoutId: Int, attachToRoot: Boolean = false): View {
     return LayoutInflater.from(context).inflate(layoutId, this, attachToRoot)
