@@ -6,4 +6,4 @@
     3. 在GridView中展示数据
 
 # 效果图
-![截图]()
+![截图](https://github.com/BruceAnda/LearnAndroidDevelop/blob/master/screenshot/basic/ui/gridview/pic.png)
