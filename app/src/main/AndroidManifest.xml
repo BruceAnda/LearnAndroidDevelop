@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="cn.zhaoliang5156.learnandroiddevelop">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -56,7 +56,7 @@
         <activity android:name=".ui.basic.corebasic.ui.listview.ListViewActivity" />
         <activity
             android:name=".ui.basic.corebasic.ui.styleandtheme.StyleAndThemeActivity"
-            android:theme="@style/AppTheme.MyTheme"/>
+            android:theme="@style/AppTheme.MyTheme" />
         <activity android:name=".ui.basic.corebasic.ui.applist.AppListActivity" />
         <activity android:name=".ui.basic.corebasic.ui.gridview.GridViewActivity" />
         <activity android:name=".ui.basic.corebasic.storage.StorageOptionActivity" />
@@ -68,7 +68,15 @@
         <activity android:name=".ui.basic.corebasic.ui.layout.layout.FrameLayoutActivity" />
         <activity android:name=".ui.basic.corebasic.ui.listview.listview.ArrayAdapterActivity" />
         <activity android:name=".ui.basic.corebasic.ui.listview.listview.SimpleAdapterActivity" />
-        <activity android:name=".ui.basic.corebasic.ui.listview.listview.BaseAdapterActivity"></activity>
+        <activity android:name=".ui.basic.corebasic.ui.listview.listview.BaseAdapterActivity" />
+        <activity android:name=".ui.basic.corebasic.storage.sharedperferences.SharedPreferencesActivity" />
+        <activity android:name=".ui.basic.corebasic.storage.internalstorage.InternalStorageActivity" />
+        <activity android:name=".ui.basic.corebasic.storage.externalstorage.ExternalStorageActivity" />
+        <activity android:name=".ui.basic.corebasic.storage.sqlite.SqliteActivity" />
+        <activity android:name=".ui.basic.corebasic.storage.httpclient.HttpClientActivity" />
+        <activity android:name=".ui.basic.corebasic.storage.httpurlconnection.HttpConnectionActivity" />
+        <activity android:name=".ui.basic.corebasic.storage.volley.VolleyActivity" />
+        <activity android:name=".ui.basic.corebasic.storage.demo1.Demo1Activity"></activity>
     </application>
 
 </manifest>

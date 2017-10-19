@@ -80,7 +80,14 @@
     </string-array>
     <!-- 数据存储 -->
     <string-array name="StorageOption">
-
+        <item>SharedPreferences</item>
+        <item>InternalStorage</item>
+        <item>ExternalStorage</item>
+        <item>数据存储上demo</item>
+        <item>Sqlite</item>
+        <item>HttpConnection</item>
+        <item>HttpClient</item>
+        <item>Volley</item>
     </string-array>
     <!-- 核心机制 -->
     <string-array name="CoreMachine">
